@@ -4,8 +4,16 @@ import style from "./EventCard.module.scss";
 const EventCard = (props) => {
 
     return (
-       <div className={style.card}>
-       </div>
+        <div className={style.card}>
+            <div className={style.card_img}>
+                <div className="ratio">
+                <Image src="/images/cover.png" fill alt="shape" />
+                </div>
+            </div>
+            <div className={style.card_body}>
+
+            </div>
+        </div>
     );
 };
 

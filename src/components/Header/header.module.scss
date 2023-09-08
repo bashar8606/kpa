@@ -5,4 +5,8 @@
     z-index: 1050;
     background-color: #fff;
 
+    .logo {
+        --bs-aspect-ratio: 38%;
+        width: 160px;
+    }
 }

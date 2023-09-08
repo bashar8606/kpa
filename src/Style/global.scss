@@ -273,3 +273,9 @@ ul {
         position: relative;
     }
 }
+
+.container-small {
+    @include lg {
+        max-width: 1200px;
+    }
+}
