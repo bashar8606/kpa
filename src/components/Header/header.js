@@ -10,6 +10,11 @@ import Image from 'next/image';
 function Header() {
     return (
         <header className={style.header}>
+            <div className={style.header_top}>
+                <div className="container">
+                    
+                </div>
+            </div>
             <Navbar expand="lg" >
                 <Container >
                     <Navbar.Brand href="#">
