@@ -11,8 +11,8 @@ const HomeAbout = (props) => {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-4">
-                        <h2 className="h2 ff-primary fw-bold">It’s time to make this world better!</h2>
-                        <p className="p-main">Our vision is to alleviate poverty by enabling its member's expertise in 36 segments, including agriculture, industrial development to poverty alleviation, unemployment and more, and make a difference to the larger community .</p>
+                        <h2 className="h2 ff-primary fw-bold">It&apos;s time to make this world better!</h2>
+                        <p className="p-main">Our vision is to alleviate poverty by enabling its member&apos;s expertise in 36 segments, including agriculture, industrial development to poverty alleviation, unemployment and more, and make a difference to the larger community .</p>
                     </div>
                     <div className="col-lg-8">
                         <div className="row row-cols-lg-2">
