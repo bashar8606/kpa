@@ -13,7 +13,7 @@ function Header() {
             <div className={style.header_top}>
                 <div className="container">
                     
-                </div>
+                </div> 
             </div>
             <Navbar expand="lg" >
                 <Container >
