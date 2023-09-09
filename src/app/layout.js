@@ -1,6 +1,7 @@
-import Header from "@/components/Header/header";
+import Header from "@/components/Header";
 import "../Style/global.scss";
 import { Barlow_Semi_Condensed, Barlow, Karla } from 'next/font/google'
+import Footer from "@/components/Footer";
 
 const fontPrimary = Barlow_Semi_Condensed({
   subsets: ['latin'],
@@ -31,7 +32,9 @@ export default function RootLayout({ children }) {
       }} 
       >
         <Header/>
-        {children}</body>
+        {children}
+        <Footer/>
+        </body>
     </html>
   )
 }

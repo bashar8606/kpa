@@ -2,6 +2,10 @@
 
 .card {
     background-color: #fff;
+    padding: 30px 10px;
+    @include lg {
+        padding: size(40) size(20);
+    }
     &_icon {
         width: 60px;
         margin-left: auto;

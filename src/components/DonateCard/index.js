@@ -16,15 +16,12 @@ const DonateCard = (props) => {
                 </div>
                 <div className={style.progress}>
                     <div className="d-flex justify-content-between">
-                        <p className={style.progress_amount}>Raised <span className="text-primary">₹81982.00</span></p>
-                        <p className={style.progress_percentage}>23.5%</p>
-
-                        <div className={style.progress_strip}>
-                            <div className={style.progress_strip__track}>
-
-                            </div>
-                        </div>
+                        <p className={`ff-secondary fw-semi ${style.progress_amount}`}>Raised <span className="text-primary">₹81982.00</span></p>
+                        <p className={`ff-secondary fw-semi ${style.progress_percentage}`}>23.5%</p>
                     </div>
+                    <div className={style.progress_strip}>
+                            <div className={style.progress_strip__track} style={{"--data-percent": `${23.5}%`}}></div>
+                        </div>
                 </div>
                 <h3 className="h4 ff-primary fw-bold">
                     Provide wheelchair assistance for disabled

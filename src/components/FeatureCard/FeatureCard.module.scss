@@ -2,6 +2,10 @@
 .card {
     display: flex;
     align-items: center;
+    padding: 12px 0;
+    @include lg {
+        padding: size(20) 0;
+    }
 
     &_img {
         flex: 0 0 auto;

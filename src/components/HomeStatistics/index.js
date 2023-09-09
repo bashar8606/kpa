@@ -12,25 +12,25 @@ const HomeStatistics = (props) => {
                     <div className="col-lg-6">
                         <div className={`row row-cols-lg-2 ${style.card_wrap}`}>
                             <div>
-                                <StatusCard />
+                                <StatusCard label="Lives Impacted" value="120K" />
                             </div>
 
                             <div>
-                                <StatusCard />
+                                <StatusCard label="Projects Completed" value="120" />
                             </div>
 
                             <div>
-                                <StatusCard />
+                                <StatusCard label="Million Donation" value="21.4M"/>
                             </div>
 
                             <div>
-                                <StatusCard />
+                                <StatusCard label="Volunteers Registered" value="822" />
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-6">
                         <h2 className="h2 ff-primary fw-bold mb-3 mb-lg-4">We Are Always Where Others Need Help!</h2>
-                        <p className="p-main">Kerala Pravasi Association Trust's vision is to alleviate poverty by enabling its member's expertise in 36 segments, including agriculture, industrial development to poverty alleviation, unemployment and more, and make a difference to the larger community .</p>
+                        <p className="p-main">Kerala Pravasi Association Trust&apos;s vision is to alleviate poverty by enabling its member&apos;s expertise in 36 segments, including agriculture, industrial development to poverty alleviation, unemployment and more, and make a difference to the larger community .</p>
 
                         <ul>
                             <li>Integrity in our actions</li>
