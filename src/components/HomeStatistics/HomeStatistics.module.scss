@@ -12,6 +12,8 @@
     }
 
     .card_wrap {
+        --bs-gutter-x: #{size(15)};
+            --bs-gutter-y: #{size(15)};
         @include lg {
             --bs-gutter-x: #{size(40)};
             --bs-gutter-y: #{size(40)};

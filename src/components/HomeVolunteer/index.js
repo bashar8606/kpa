@@ -9,7 +9,7 @@ const HomeVolunteer = (props) => {
                 <Image src="/images/cover.webp" fill alt="shape" />
                     <div className="row align-items-center position-relative">
                         <div className="col-lg-7 col-xxl-8">
-                            <h2 className="h2 ff-primary text-white fw-bold mb-0">
+                            <h2 className="h2 ff-primary text-white fw-bold mb-3 mb-lg-0">
                             Everybody can contribute and make a difference!
                             </h2>
                         </div>

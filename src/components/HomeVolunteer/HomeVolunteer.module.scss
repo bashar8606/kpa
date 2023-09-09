@@ -11,13 +11,17 @@
     }
 }
 .card {
-    --px: 100px;
-    --py: 60px;
+    --px: 20px;
+    --py: 30px;
     position: relative;
     padding: var(--py) var(--px);
     background-color: #000;
     border-radius: 16px;
     overflow: hidden;
+    @include lg {
+        --px: #{size(100)};
+        --py: #{size(60)}; 
+    }
     img {
         object-fit: cover;
     }

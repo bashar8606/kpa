@@ -25,7 +25,7 @@ const HomeBanner = (props) => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-7 order-lg-2 order-1">
+                    <div className="col-lg-7 order-lg-2 order-1 mb-3 mb-lg-0">
                         <div className={style.banner}>
                         <div className={`stroke ${style.stroke} ${style.stroke_two}`}>
                             <Image src="/images/shape2.svg" fill alt="shape" />

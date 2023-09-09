@@ -48,13 +48,18 @@
 
         &_card_one {
             position: absolute;
-            top: 33%;
+            top: 12%;
+            left: 35%;
+padding: 10px;
             z-index: 1;
-            left: 88%;
+           
             border-radius: 10px;
             background-color: #fff;
             box-shadow: 0px 1px 14px 0px rgba(100, 100, 100, 0.20);
-
+@include md {
+    top: 33%;
+    left: 88%;
+}
             @include lg {
                 padding: size(20);
             }
@@ -95,7 +100,7 @@
             display: flex;
             align-items: center;
             z-index: 111;
-
+            padding: 10px;
             @include lg {
                 padding: size(20);
             }
@@ -132,11 +137,18 @@
 
         &_card_three {
             position: absolute;
-            top: 70%;
             z-index: 1;
-            left: 80%;
+          
+            
+    top: 65%;
+    left: 57%;
+
             display: flex;
             align-items: center;
+            @include md {
+                top: 70%;
+                left: 80%;
+            }
 
             p {
                 font-size: size(22);

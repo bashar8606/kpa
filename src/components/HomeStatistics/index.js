@@ -9,8 +9,8 @@ const HomeStatistics = (props) => {
         <section className={style.section} >
             <div className="container container-small">
                 <div className="row">
-                    <div className="col-lg-6">
-                        <div className={`row row-cols-lg-2 ${style.card_wrap}`}>
+                    <div className="col-lg-6 mb-4 mb-lg-0">
+                        <div className={`row row-cols-2 ${style.card_wrap}`}>
                             <div>
                                 <StatusCard label="Lives Impacted" value="120K" />
                             </div>
