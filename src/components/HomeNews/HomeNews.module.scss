@@ -1,13 +1,13 @@
 @import '../../Style/variable.scss';
 
 .section {
-    --pt: 60px;
-    --pb: 60px;
+    --pt: 40px;
+    --pb: 0px;
     padding: var(--pt) 0 var(--pb);
 
     @include lg {
-        --pt: 110px;
-        --pb: 110px;
+        --pt: 50px;
+        --pb: 0px;
     }
 }
 

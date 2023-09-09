@@ -7,7 +7,7 @@ const NewsCard = (props) => {
         <div className={style.card}>
             <div className={style.card_img}>
                 <div className="ratio">
-                    <Image src="/images/cover.png" fill alt="shape" />
+                    <Image src="/images/cover.webp" fill alt="shape" />
                 </div>
             </div>
             <div className={style.card_body}>

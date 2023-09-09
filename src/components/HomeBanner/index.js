@@ -12,7 +12,7 @@ const HomeBanner = (props) => {
             </div>
             <div className="container">
                 <div className="row align-items-center">
-                    <div className="col-lg-5">
+                    <div className="col-lg-5 order-lg-1 order-2">
                         <div className={`${style.content} position-relative`}>
                             <div className={`stroke ${style.stroke} ${style.stroke_one}`}>
                                  <Image src="/images/shape1.svg" fill alt="shape" />
@@ -25,7 +25,7 @@ const HomeBanner = (props) => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-7">
+                    <div className="col-lg-7 order-lg-2 order-1">
                         <div className={style.banner}>
                         <div className={`stroke ${style.stroke} ${style.stroke_two}`}>
                             <Image src="/images/shape2.svg" fill alt="shape" />
@@ -41,19 +41,19 @@ const HomeBanner = (props) => {
                                 <h5 className="ff-secondary fw-bold h6">Join Our Volunteers</h5>
                                 <div className={style.round}>
                                     <div className={style.round_item}>
-                                        <Image src="/images/cover.png" fill alt="world map" />
+                                        <Image src="/images/cover.webp" fill alt="world map" />
                                     </div>
                                     <div className={style.round_item}>
-                                        <Image src="/images/cover.png" fill alt="world map" />
+                                        <Image src="/images/cover.webp" fill alt="world map" />
                                     </div>
                                     <div className={style.round_item}>
-                                        <Image src="/images/cover.png" fill alt="world map" />
+                                        <Image src="/images/cover.webp" fill alt="world map" />
                                     </div>
                                     <div className={style.round_item}>
-                                        <Image src="/images/cover.png" fill alt="world map" />
+                                        <Image src="/images/cover.webp" fill alt="world map" />
                                     </div>
                                     <div className={style.round_item}>
-                                        <Image src="/images/cover.png" fill alt="world map" />
+                                        <Image src="/images/cover.webp" fill alt="world map" />
                                     </div>
                                     <div className={`${style.round_item} bg-primary text-white ff-secondary fw-regular`}>70+</div>
                                 </div>
@@ -84,7 +84,7 @@ const HomeBanner = (props) => {
 
                             <div className={style.banner_bg}>
                                 <div className={`ratio ${style.ratio}`}>
-                                    <Image src="/images/cover.png" fill alt="world map" />
+                                    <Image src="/images/cover.webp" fill alt="world map" />
                                 </div>
                             </div>
                         </div>

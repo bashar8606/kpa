@@ -268,11 +268,17 @@ ul {
 }
 
 .stroke {
-    --stroke: 147px;
+    --stroke: 54px;
     position: absolute;
     width: var(--stroke);
     mix-blend-mode: multiply;
     z-index: 11;
+    @include md {
+        --stroke: 90px;
+    }
+    @include lg {
+        --stroke: 147px;
+    }
     @include xxl {
         --stroke: 227px;
     }

@@ -6,7 +6,7 @@
     padding: var(--pt) 0 var(--pb);
 
     @include lg {
-        --pt: 110px;
-        --pb: 110px;
+        --pt: #{size(80)};
+        --pb: #{size(50)};
     }
 }

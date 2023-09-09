@@ -1,16 +1,21 @@
 @import '../../Style/variable.scss';
+
 .card {
     display: flex;
     align-items: center;
     padding: 12px 0;
+
     @include lg {
         padding: size(20) 0;
     }
 
     &_img {
         flex: 0 0 auto;
-        width: 80px;
+        width: 50px;
         position: relative;
+        @include lg {
+            width: size(80);
+        }
 
         &::before {
             --size: 50px;
@@ -34,5 +39,12 @@
         padding-left: 40px;
         width: 100%;
         flex: 1 0;
+
+        p {
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
     }
 }
