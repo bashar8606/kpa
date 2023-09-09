@@ -1,0 +1,16 @@
+@import '../../Style/variable.scss';
+
+
+.section {
+    --pt: 60px;
+    --pb: 60px;
+    padding: var(--pt) 0 var(--pb);
+    background-color: #F4F2F1;
+    @include lg {
+
+    }
+
+    .card_wrap {
+        
+    }
+}

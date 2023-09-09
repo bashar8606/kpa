@@ -8,8 +8,11 @@
     min-height: 100vh;
     display: flex;
     align-items: center;
+    overflow: hidden;
 
-    @include lg {}
+    @include lg {
+        --pt: #{size(100)};
+    }
 
     :global(.container) {
         position: relative;
@@ -19,7 +22,11 @@
 
     .banner {
         position: relative;
-        max-width: 715px;
+        max-width: 535px;
+
+        @include xxl {
+            max-width: 715px;
+        }
 
         &_bg {
             --bs-aspect-ratio: 111.4%;
@@ -30,7 +37,8 @@
 
             -webkit-mask-size: 75%;
             -webkit-mask-position: 25%;
-will-change: mask-size,  -webkit-mask-size;
+            will-change: mask-size, -webkit-mask-size;
+
             img {
                 object-fit: cover;
             }
@@ -86,7 +94,8 @@ will-change: mask-size,  -webkit-mask-size;
             box-shadow: 0px 1px 14px 0px rgba(100, 100, 100, 0.20);
             display: flex;
             align-items: center;
-z-index: 111;
+            z-index: 111;
+
             @include lg {
                 padding: size(20);
             }
@@ -152,6 +161,7 @@ z-index: 111;
 
 .stroke {
     display: block;
+
     &_one {
         top: -9%;
         left: -12%;

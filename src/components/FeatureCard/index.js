@@ -7,7 +7,7 @@ const FeatureCard = (props) => {
         <div className={style.card}>
             <div className={style.card_img}>
                 <div className={`${style.img} ratio ratio-1x1`}>
-
+                    <Image src="/images/icon.png" fill alt="icon"/>
                 </div>
             </div>
             <div className={style.card_info}>
