@@ -8,14 +8,26 @@ function Footer() {
                     <div className="row ">
                         <div className="col-lg-4">
                             <h3 className={`ff-secondary ${style.footer_title}`}>What We Are</h3>
-                        <p>Working towards ensuring we meet the needs of the people and move towards building a strong, prosperous and self-reliant Kerala by Pravasi’s.</p>
+                            <p>Working towards ensuring we meet the needs of the people and move towards building a strong, prosperous and self-reliant Kerala by Pravasi’s.</p>
+                        
+                        <div className={`ratio ${style.logo}`}>
+                        <Image src="/images/logo.svg" fill alt="shape" />
+                        </div>
                         </div>
                         <div className="col-lg-4">
                             <h3 className={`ff-secondary ${style.footer_title}`}>Contact Us</h3>
                             <p>As the world leader in volunteerism we feel a responsibility to unite our broader community, and to use this momentum to become a stronger nation.</p>
+
+
                         </div>
                         <div className="col-lg-4">
                             <h3 className={`ff-secondary ${style.footer_title}`}>Our Newsletters</h3>
+                            <p>
+                                Subscribe to our newsletter to get more information
+                            </p>
+
+                        <input type="text" placeholder="Enter Your Email" className="form-control w-100 mb-3" />
+                        <button className="btn btn-dark w-100">Subscribe now</button>
                         </div>
                     </div>
                 </div>
