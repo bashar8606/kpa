@@ -265,6 +265,9 @@ font-size: 20px;
     background-color: #fff;
     --bs-btn-hover-color: #f5f5f5;
 }
+.btn-primary {
+    --bs-btn-color: #ffffff;
+}
 .p-main {
     color:  #7E828A;
     font-family: var(--ff-tertiary);
